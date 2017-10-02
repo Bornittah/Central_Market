@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/wcm"
+    tools:context="com.example.bornittah.central_market.fragments.welcome">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="CENTRAL MARKET"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textColor="#e209ed"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="we sell quality products"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"
+        android:textColor="#e209ed"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="PO Box 32 "
+        android:layout_marginTop="150dp"
+        android:textAlignment="center"
+        android:textColor="#e209ed"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Plot 13, independence park, Mbarara, Uganda"
+        android:layout_marginTop="200dp"
+        android:textAlignment="center"
+        android:textColor="#e209ed"
+        android:textSize="18sp"
+        />
+    <ImageView android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/market"
+        android:id="@+id/imageView2"
+        android:layout_marginLeft="15dp"
+        />
+
+</RelativeLayout>

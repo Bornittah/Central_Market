@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#beff3a">
+    android:layout_height="match_parent">
+
     <ListView
         android:id="@+id/list"
-        android:layout_width="200dp"
+        android:layout_width="100dp"
         android:layout_height="match_parent"
-        android:layout_weight="4">
+        android:layout_weight="3"
+        android:background="#e19be2"
+        >
+
 
     </ListView>
 
@@ -15,7 +18,7 @@
         android:id="@+id/vegetables"
         android:layout_toEndOf="@+id/list"
         android:layout_width="wrap_content"
-        android:visibility="visible"
+        android:visibility="invisible"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/list">
 
@@ -30,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toEndOf="@+id/list"
-        android:visibility="visible"
+        android:visibility="invisible"
         android:layout_toRightOf="@+id/list">
         <include layout="@layout/fragment_fruits" />
 
@@ -40,13 +43,25 @@
         android:id="@+id/clothes"
         android:layout_toEndOf="@+id/list"
         android:layout_width="wrap_content"
-        android:visibility="visible"
+        android:visibility="invisible"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/list">
 
         <include
             android:id="@+id/clotheslayout"
             layout="@layout/fragment_clothes"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/wcm"
+        android:layout_toEndOf="@+id/list"
+        android:layout_width="wrap_content"
+        android:visibility="visible"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/list">
+
+        <include
+            layout="@layout/fragment_welcome"/>
 
     </RelativeLayout>
 

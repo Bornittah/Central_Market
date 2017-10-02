@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 RelativeLayout rLayout1= (RelativeLayout) findViewById(R.id.fruits);
                 RelativeLayout rLayout2= (RelativeLayout) findViewById(R.id.vegetables);
                 RelativeLayout rLayout3= (RelativeLayout) findViewById(R.id.clothes);
+                RelativeLayout rLayout4= (RelativeLayout) findViewById(R.id.wcm);
 
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -47,22 +48,25 @@ public class MainActivity extends AppCompatActivity {
                     switch (customers_choice){
                         case "veg":
 
-                            rLayout1.setVisibility(View.VISIBLE);
-                            rLayout2.setVisibility(View.INVISIBLE);
+                            rLayout2.setVisibility(View.VISIBLE);
+                            rLayout1.setVisibility(View.INVISIBLE);
                             rLayout3.setVisibility(View.INVISIBLE);
+                            rLayout4.setVisibility(View.INVISIBLE);
 
                             break;
                         case "fruits":
 
-                            rLayout2.setVisibility(View.VISIBLE);
-                            rLayout1.setVisibility(View.INVISIBLE);
+                            rLayout2.setVisibility(View.INVISIBLE);
+                            rLayout1.setVisibility(View.VISIBLE);
                             rLayout3.setVisibility(View.INVISIBLE);
+                            rLayout4.setVisibility(View.INVISIBLE);
                             break;
 
                         case "cloth":
                             rLayout3.setVisibility(View.VISIBLE);
                             rLayout2.setVisibility(View.INVISIBLE);
                             rLayout1.setVisibility(View.INVISIBLE);
+                            rLayout4.setVisibility(View.INVISIBLE);
                             break;
 
                     }
@@ -86,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
                 RelativeLayout rLayout1= (RelativeLayout) findViewById(R.id.fruits);
                 RelativeLayout rLayout2= (RelativeLayout) findViewById(R.id.vegetables);
                 RelativeLayout rLayout3= (RelativeLayout) findViewById(R.id.clothes);
+                RelativeLayout rLayout4= (RelativeLayout) findViewById(R.id.wcm);
 
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -93,22 +98,25 @@ public class MainActivity extends AppCompatActivity {
                     switch (customers_choice){
                         case "veg":
 
-                            rLayout1.setVisibility(View.VISIBLE);
-                            rLayout2.setVisibility(View.INVISIBLE);
+                            rLayout1.setVisibility(View.INVISIBLE);
+                            rLayout2.setVisibility(View.VISIBLE);
                             rLayout3.setVisibility(View.INVISIBLE);
+                            rLayout4.setVisibility(View.INVISIBLE);
 
                             break;
                         case "fruits":
 
-                            rLayout2.setVisibility(View.VISIBLE);
-                            rLayout1.setVisibility(View.INVISIBLE);
+                            rLayout2.setVisibility(View.INVISIBLE);
+                            rLayout1.setVisibility(View.VISIBLE);
                             rLayout3.setVisibility(View.INVISIBLE);
+                            rLayout4.setVisibility(View.INVISIBLE);
                             break;
 
                         case "cloth":
                             rLayout3.setVisibility(View.VISIBLE);
                             rLayout2.setVisibility(View.INVISIBLE);
                             rLayout1.setVisibility(View.INVISIBLE);
+                            rLayout4.setVisibility(View.INVISIBLE);
                             break;
 
                     }

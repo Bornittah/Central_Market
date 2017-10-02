@@ -1,6 +1,5 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#beff3a"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.bornittah.central_market.fragments.Vegetables">
@@ -15,10 +14,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="we sell avariety of vegetables including carrots, cabbages, tomatoes,greens, egg plants among others" />
+            android:textSize="25sp"
+            android:textColor="#080000"
+            android:text="we sell all kinds of vegetables including carrots, cabbages, tomatoes,greens, egg plants among others" />
 
-        <ImageView android:layout_width="400dp"
-            android:layout_height="400dp"
+        <ImageView android:layout_width="350dp"
+            android:layout_height="350dp"
             android:layout_marginTop="70sp"
             android:src="@drawable/vegetables"
             android:layout_alignParentBottom="true"
@@ -26,6 +27,7 @@
             android:layout_alignParentStart="true"
             android:layout_marginBottom="59dp" />
 </RelativeLayout>
+
     </ScrollView>
 
 

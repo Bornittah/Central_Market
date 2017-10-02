@@ -2,29 +2,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#beff3a"
+
     tools:context="com.example.bornittah.central_market.fragments.Fruits">
 
     <!-- TODO: Update blank fragment layout -->
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
         <RelativeLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            >
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:textSize="20sp"
-            android:text="we have fruits of all kinds, so dont miss adding fruits to your meal.come and find the fruit of your choice in central market.forexample oranges, mangoes, passion fruits, jack fruits,
- water mellon, banana, apples,lemons, gauvas, berries, and many others" />
-        <ImageView android:layout_width="400dp"
+            android:textSize="18dp"
+            android:textColor="#080000"
+            android:text="we have fruits of all kinds, so dont miss adding fruits to your meal. Come and find best fruit for your health in central market. Oranges, mangoes, passion fruits, jack fruits,
+ water mellon, banana, apples,lemons, gauvas, berries, and many others are all available"
+            android:id="@+id/textView" />
+        <ImageView android:layout_width="350dp"
             android:layout_height="400dp"
-            android:layout_marginTop="100sp"
             android:src="@drawable/fruits"
-            android:layout_centerVertical="true"
-            android:layout_centerHorizontal="true" />
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="82dp"
+            android:layout_marginLeft="10dp"/>
 
         </RelativeLayout>
     </ScrollView>
